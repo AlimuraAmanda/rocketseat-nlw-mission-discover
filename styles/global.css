@@ -34,6 +34,10 @@ textarea {
   font-size: clamp(14px, 1.6rem, 2vw);
   font-family: 'Open Sans', sans-serif;
 }
+.content {
+  width: 100%;
+  margin: 0 auto;
+}
 
 .sr-only {
   position: absolute;
