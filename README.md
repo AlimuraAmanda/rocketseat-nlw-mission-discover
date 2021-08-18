@@ -1,2 +1,0 @@
-## 💻 Projeto
-Mission : Discover
