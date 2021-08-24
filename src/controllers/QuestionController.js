@@ -9,6 +9,7 @@ module.exports = {
     const password = req.body.password
 
     const verifyRoom = await db.get(`SELECT * FROM rooms WHERE id = ${roomId}`)
+
     if (verifyRoom.pass == password) {
       if (action == 'delete') {
         await db.run(`DELETE FROM questions WHERE id = ${questionId}`)
